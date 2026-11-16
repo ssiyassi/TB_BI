@@ -1,0 +1,59 @@
+                    +------------------+
+                    |     DimDate      |
+                    +------------------+
+                    | DateKey (PK)     |
+                    | Date             |
+                    | Day              |
+                    | Week             |
+                    | Month            |
+                    | Year             |
+                    +------------------+
+                             |
+                             |
+                             |
++------------------+         |         +----------------------+
+|   DimReseller    |---------|---------|   FactSalesPerformance|
++------------------+         |         +----------------------+
+| ResellerKey (PK) |         |         | FactKey (PK)         |
+| ResellerName     |         |         | DateKey (FK)         |
+| ParentKey (FK)   |         |         | ResellerKey (FK)     |
+| JoinDate         |         |         | ParentKey (FK)       |
+| Status           |         |         | ProductKey (FK)      |
++------------------+         |         | QtySold             |
+                             |         | Revenue             |
+                             |         | WeekNumber          |
+                             +---------+----------------------+
+                                       |
+                                       |
+                                       |
+                             +------------------+
+                             |   DimProduct     |
+                             +------------------+
+                             | ProductKey (PK)  |
+                             | ProductName      |
+                             | Price            |
+                             +------------------+
+
+
+                    +------------------+
+                    | DimParentReseller|
+                    +------------------+
+                    | ParentKey (PK)   |
+                    | ParentName       |
+                    +------------------+
+                             |
+                             |
+                             |
+                             |
+                    +------------------+
+                    |   FactReward     |
+                    +------------------+
+                    | RewardFactKey(PK)|
+                    | DateKey (FK)     |
+                    | ResellerKey(FK)  |
+                    | ParentKey (FK)   |
+                    | AchievementQty   |
+                    | TargetReward     |
+                    | RemainingQty     |
+                    | RewardValue      |
+                    +------------------+
