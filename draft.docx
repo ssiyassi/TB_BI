@@ -1,0 +1,133 @@
+Implementasi Business Intelligence untuk Analisis Kinerja Reseller dan Distribusi Komisi pada Jentis Kitchen Menggunakan Dashboard Interaktif
+Roadmap Pengerjaan
+
+Menurut gw urutannya begini.
+Minggu 1
+Finalisasi Data Penelitian
+Inventarisasi tabel:
+resellers
+orders
+shop_products
+
+Output:
+✅ Data Dictionary
+✅ Mapping Relasi
+
+Minggu 2
+Finalisasi KPI
+
+Executive KPI
+Total Sales
+Total Orders
+Total Reseller Aktif
+Total Reward
+
+Reseller KPI
+Sales per Reseller
+Order per Reseller
+Kontribusi Reseller
+Ranking Reseller
+
+Parent KPI
+Parent Sales
+Jumlah Downline
+Top Reseller Parent
+
+
+Output:
+✅ Daftar KPI
+
+KPI 1
+Top Performing Reseller
+KPI 2
+Sales Contribution
+KPI 3
+Parent Reseller Performance
+KPI 4
+Reward Achievement  
+  
+Dashboard yang Keluar dari Model Ini
+Page 1
+Executive Dashboard:
+Total Sales
+Total Qty
+Total Reseller
+Total Reward
+
+Page 2
+Reseller Performance:  
+Top 10 Reseller
+Sales by Reseller
+Reward Achievement
+
+Page 3
+Parent Reseller Analysis:
+Top Parent Reseller
+Jumlah Downline
+Kontribusi Parent Network
+
+Page 4
+Product Performance:
+Produk Terlaris
+Revenue per Produk
+  
+Minggu 3
+ETL
+Boleh pakai Pentaho.
+Tapi Pentaho muncul sebagai tools, bukan topik utama.
+
+Alur:
+Plain Text
+Database Jentis
+↓
+Pentaho
+↓
+Data Cleaning
+↓
+Dataset Analitik
+
+Output:
+✅ Dataset Final (.xlsx / .csv)
+
+Minggu 4
+Dashboard Power BI
+Page 1
+Executive Summary
+
+Page 2
+Reseller Performance
+
+Page 3
+Commission Analysis
+
+Output:
+✅ Dashboard PBIX
+✅ Screenshot Dashboard
+
+Minggu 5
+Artikel IMRAD
+
+Introduction
+Method
+Results
+Discussion
+Conclusion
+
+Output:
+✅ Draft artikel 8-15 halaman
+
+Minggu 6
+Literatur
+
+Target dosen:
+Minimal 15 referensi
+10 jurnal internasional
+Rentang 2021-2026
+
+Cari jurnal tentang:
+Business Intelligence
+Dashboard BI
+KPI Monitoring
+Power BI
+Reseller Performance
+Data Visualization
